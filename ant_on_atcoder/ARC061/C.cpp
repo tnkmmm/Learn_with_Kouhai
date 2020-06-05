@@ -14,7 +14,7 @@ int main(){
             if(bit & (1<<i)){//+が挿入されているかどうかをandで確認
                 stop = i+1;//+で区切られてる左側
 
-                //cout << s.substr(start,stop-start) << endl;
+                //cout << s.substr(start,stop-start) << endl;//確認
 
                 //部分文字列を取得してlong longに変換
                 sum += atoll(s.substr(start,stop-start).c_str());
@@ -24,7 +24,7 @@ int main(){
         }
 
         //cout << s.substr(start,n+1-start) << endl;
-        
+
         //最後の区切りをここで加算
         sum += atoll(s.substr(start,n+1-start).c_str());
     }
