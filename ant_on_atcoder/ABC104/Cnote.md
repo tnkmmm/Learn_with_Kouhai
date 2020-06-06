@@ -9,4 +9,4 @@
 
 
 
-## (問題リンク)[https://atcoder.jp/contests/abc104/tasks/abc104_c]
+## [問題リンク](https://atcoder.jp/contests/abc104/tasks/abc104_c)
